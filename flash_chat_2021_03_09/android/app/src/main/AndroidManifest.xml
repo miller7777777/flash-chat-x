@@ -2,7 +2,8 @@
     package="co.appbrewery.flash_chat_2021_03_09">
    <application
         android:label="flash_chat_2021_03_09"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/ic_launcher"
+        android:name="androidx.multidex.MultiDexApplication" >>
         <activity
             android:name=".MainActivity"
             android:launchMode="singleTop"
